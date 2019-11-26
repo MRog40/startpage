@@ -1,0 +1,142 @@
+:root {
+  /* Colors */
+  --black: #000000;
+  --dark-gray: #181A1F; /* rgb(33, 37, 43)  */
+  --gray: #282c34; /* rgb(40, 44, 52)  */
+  --med-gray: #7f848e; /* rgb(127, 132, 142)  */
+  --light-gray: #abb2bf; /* rgb(171, 178, 191)  */
+  --off-white: #f8fafd; /* rgb(248, 250, 253)  */
+  --pink: #ef596f; /* rgb(239, 89, 111)  */
+  --purple: #d058d9; /* rgb(208, 88, 217)  */
+  --blue: #61afef; /* rgb(97, 175, 239)  */
+  --green: #89ca78; /* rgb(137, 202, 120)  */
+  --orange: #e5c07b; /* rgb(229, 192, 123)  */
+  --red: #c24038; /* rgb(194, 64, 56)  */
+  /* Other Vars */
+  --title-font: 22px;
+  --main-font: 22px;
+  --social-icon-size: 30px;
+}
+html {
+  font-family: "Ubuntu", sans-serif;
+  background-color: var(--black);
+  color: var(--med-gray);
+  font-size: var(--main-font);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar { /* Hide Scrollbar*/
+  width: 0px;
+  background: transparent;
+}
+.container {
+  width: 1300px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#date {
+  font-size: 1rem;
+  color: var(--med-gray);
+  margin-bottom: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search {
+  width: 1300px;
+  height: 95vh;
+  background-color: var(--black);
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search-field {
+  width: 1300px;
+  border: solid 0px var(--black);
+  font-size: 1rem;
+  color: var(--med-gray);
+  background-color: var(--black);
+  outline: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.weather-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 67%;
+  color: var(--med-gray);
+  text-align: center;
+}
+#weather-block {
+  line-height: 1.5;
+}
+.caps {
+  text-transform: capitalize;
+}
+.inline {
+  display: inline-block;
+}
+.inline-icon {
+  width: 3em;
+  height: 3em;
+  vertical-align: middle;
+}
+.bookmark-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+}
+.gray-text {
+  color: var(--med-gray);
+  font-size: 0.6rem;
+}
+.bookmark-set {
+  padding: 1em;
+  background-color: var(--black);
+  font-size: 0.85rem;
+  width: 25%;
+  height: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bookmark-inner-container {
+  overflow-y: hidden;
+  height: 100%;
+  vertical-align: top;
+  overflow-x: hidden;
+}
+.bookmark {
+  text-decoration: none;
+  color: var(--med-gray);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bookmark:hover {
+  color: var(--white);
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul li::before {
+  content: "\2022";
+  color: var(--purple);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+#clock {
+  font-size: 72px;
+  color: var(--med-gray);
+  margin-left:auto;
+  margin-right:auto;
+}
+.main {
+  width: 1300px;
+  margin-left:auto;
+  margin-right:auto;
+}

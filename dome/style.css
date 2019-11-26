@@ -1,0 +1,169 @@
+:root {
+  /* Colors */
+  --black: #000000;
+  --darker: #101112; /* rgb(33, 37, 43)  */
+  --dark-gray: #181A1F; /* rgb(33, 37, 43)  */
+  --gray: #282c34; /* rgb(40, 44, 52)  */
+  --med-gray: #7f848e; /* rgb(127, 132, 142)  */
+  --light-gray: #abb2bf; /* rgb(171, 178, 191)  */
+  --off-white: #f8fafd; /* rgb(248, 250, 253)  */
+  --pink: #ef596f; /* rgb(239, 89, 111)  */
+  --purple: #d058d9; /* rgb(208, 88, 217)  */
+  --blue: #61afef; /* rgb(97, 175, 239)  */
+  --green: #89ca78; /* rgb(137, 202, 120)  */
+  --orange: #e5c07b; /* rgb(229, 192, 123)  */
+  --red: #c24038; /* rgb(194, 64, 56)  */
+  /* Other Vars */
+  --title-font: 12pt;
+  --main-font: 12pt;
+  --social-icon-size: 30px;
+
+  --hdr: var(--gray);	    /* Header Background Color */
+  --bkg: var(--darker);	        /* Background Color */
+  --frg: var(--dark-gray);	    /* Foreground Color */
+  --hgl: var(--pink);	      	/* Highlight Color */
+
+  --htx: var(--off-white);		/* Header Text Color */
+  --txt: var(--off-white);		/* Text Color */
+}
+
+@font-face {
+	src: url(font/Montserrat-Regular.otf);
+	font-family: Montserrat;
+}
+
+html, body {
+	font-family: Montserrat;
+	overflow-x: hidden;
+}
+
+div#wiper {
+	opacity: 0 !important;
+	z-index: -1 !important;
+}
+
+body > div#main {
+	transform: translate(-50%, -50%);
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transition: 1s transform;
+	max-height: 90vh;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	transition: .2s height;
+}
+
+body > div#main > span > div#static_links {
+	font-family: Terminus, Montserrat;
+	background-color: var(--hdr);
+	margin: 2px 2px 0px 2px;
+	box-sizing: border-box;
+	color: var(--txt)22;
+	padding-right: 7px;
+	padding-left: 5px;
+	line-height: 30px;
+	text-align: right;
+	font-size: 10pt;
+	border: none;
+	width: 908px;
+	height: 30px;
+}
+
+body > div#main > span > div#static_links > span#clock {
+	margin-right: 15px;
+}
+
+body > div#main > span > div#static_links > span:first-of-type {
+	color: var(--htx);
+	float: left;
+}
+
+body > div#main > span > div#static_links > a {
+	text-decoration: none;
+	color: var(--htx);
+}
+
+body > div#main > span > div#static_links > a:hover {
+	color: white;
+}
+
+body > div#main > span > div#static_links > a + a {
+	margin-left: 15px;
+}
+
+body > div#main > span > form > input {
+	background-color: var(--frg);
+	font-family: Montserrat;
+	margin: 0px 2px 2px 2px;
+	box-sizing: border-box;
+	color: var(--txt);
+	padding-left: 5px;
+	font-size: 10pt;
+	border: none;
+	width: 908px;
+	height: 20px;
+}
+
+body > div#main > span > form > input:focus {
+	outline: none;
+}
+
+@media screen and (max-width: 912px) {
+	body > div#main > span > form > input, body > div#main > span > div#static_links {
+		width: 604px;
+	}
+}
+
+@media screen and (max-width: 608px) {
+	body > div#main > span > form > input, body > div#main > span > div#static_links {
+		width: 300px;
+	}
+}
+
+div#links > div.section {
+	background-color: var(--hdr);
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	height: 200px;
+	width: 300px;
+	margin: 2px;
+	overflow: hidden;
+	color: var(--htx);
+}
+
+div#links > div.section:before {
+	content: "";
+	margin-left: 5px;
+}
+
+div#links > div.section > div {
+	padding: 15px;
+	background-color: var(--frg);
+	height: 100%;
+}
+
+div#links > div.section > div > a {
+	text-decoration: none;
+	color: var(--txt);
+	display: block;
+}
+
+div#links > div.section > div > a:hover {
+	background-color: rgba(255,255,255,.1);
+	color: var(--hgl);
+}
+
+div#links > div.section > div > a.selected {
+	background-color: rgba(255,255,255,.1);
+	color: var(--hgl);
+}
+
+div#links > div.section > div > a + a {
+	margin-top: 5px;
+}
