@@ -46,8 +46,8 @@ var sites = {
                     "Chilled Cow"         : "https://www.youtube.com/watch?v=hHW1oY26kxQ",
                     "Xim"                 : "https://community.xim.tech/index.php",
                     "SnapEDA"             : "https://www.snapeda.com/home/",
-                    "-----"               : "",
-                    "-----"               : ""
+                    "UMG"                 : "https://umggaming.com/tournaments",
+                    "CMG"                 : "https://www.checkmategaming.com/bank"
                 }
             };
 
@@ -90,8 +90,10 @@ function matchLinks(regex = prevregexp)
     {
         document.getElementById("action").action = search[regex.charAt(0)];
 
-        document.getElementById("action").children[0].name = search[regex.charAt(0)].slice( search[regex.charAt(0)].indexOf("?") + 1, -1 );
-        //document.getElementById("action").children[0].name = "q";
+        if( regex.charAt(0) == 's' ) // Special case for spotify which has a weird query
+            document.getElementById("action").children[0].name = "";
+        else
+            document.getElementById("action").children[0].name = search[regex.charAt(0)].slice( search[regex.charAt(0)].indexOf("?") + 1, -1 );
     }
     else
     {
