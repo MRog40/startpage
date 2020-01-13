@@ -1,15 +1,13 @@
 // ---------- CONFIGURATION ----------
 // DOME
 var sites = {
-            "D2L" : {
-                "D2L Power" : "https://d2l.sdbor.edu/d2l/le/content/1300153/Home",
-                "D2L Power Lab" : "https://d2l.sdbor.edu/d2l/le/content/1304930/Home",
-                "D2L Econ" : "https://d2l.sdbor.edu/d2l/le/content/1260857/Home",
-                "D2L Feedback" : "https://d2l.sdbor.edu/d2l/le/content/1273025/Home",
-                "D2L Sr Design" : "https://d2l.sdbor.edu/d2l/le/content/1254730/Home",
-                "D2L Prog Tech" : "https://d2l.sdbor.edu/d2l/le/content/1304252/Home"
+            "Sch" : {
+                "D2L Embedded" : "https://d2l.sdbor.edu/d2l/le/content/1333664/Home",
+                "D2L Stats" : "https://d2l.sdbor.edu/d2l/le/content/1333634/Home",
+                "D2L Radar" : "https://d2l.sdbor.edu/d2l/le/content/1333485/Home",
+                "Antennas"  : "http://montoya.sdsmt.edu/ee483/spring2020/ee483_spring2020.htm",
             },
-            "School" : {
+            "Sch2" : {
                 "Gitlab"                  : "https://gitlab.mcs.sdsmt.edu/",
                 "Email"                   : "https://mail.google.com/mail/u/0/#inbox",
                 "School Email"            : "https://mail.google.com/mail/u/1/#inbox",
