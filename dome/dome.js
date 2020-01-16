@@ -5,6 +5,7 @@ var sites = {
                 "D2L Embedded" : "https://d2l.sdbor.edu/d2l/le/content/1333664/Home",
                 "D2L Stats" : "https://d2l.sdbor.edu/d2l/le/content/1333634/Home",
                 "D2L Radar" : "https://d2l.sdbor.edu/d2l/le/content/1333485/Home",
+                "D2L SrDesign" : "https://d2l.sdbor.edu/d2l/home/1330854",
                 "Antennas"  : "http://montoya.sdsmt.edu/ee483/spring2020/ee483_spring2020.htm",
             },
             "Sch2" : {
@@ -21,12 +22,12 @@ var sites = {
                 "Keep"                    : "https://keep.google.com/u/0/",
                 "Weather"                 : "https://weather.com/weather/today/",
                 "VPN Test"                : "http://ipleak.net",
-                "/r/FirefoxCSS"           : "https://www.reddit.com/r/firefoxcss"
+                "Router"                  : "router.asus.com"
             },
             "Social" : {
                 "Youtube"                 : "https://www.youtube.com/",
                 "Reddit"                  : "https://www.reddit.com/",
-                "Gamebattles"              : "http://profile.majorleaguegaming.com/MRog40/",
+                "Gamebattles"             : "http://profile.majorleaguegaming.com/MRog40/",
                 "Twitch"                  : "https://twitch.tv/",
                 "/r/modernwarfare"        : "https://www.reddit.com/r/modernwarfare",
                 "/r/UnixPorn"             : "https://www.reddit.com/r/unixporn"
