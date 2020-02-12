@@ -34,7 +34,7 @@ var sites = {
             },
             "Other" : {
                     "Senior Design Drive" : "https://drive.google.com/drive/u/1/folders/0AAUPGjODjDkxUk9PVA",
-                    "PDR Slides"          : "https://docs.google.com/presentation/d/1qaPJSerLKaY41vbb6Kd-B0nG8DfEDwNKewXdnTusqYs/edit#slide=id.g6ad2fef6b1_0_51",
+                    "CDR Slides"          : "https://docs.google.com/presentation/d/1CJn0WJyT7w2tJa-K_2CKDlGqUGjZkFxVBNXVcDddyro/edit",
                     "Log Book"            : "file:///C:/Users/7258163/Documents/School/Senior_Design_1/LogBook.html",
                     "CSC215 Notes"        : "file:///C:/Users/7258163/Documents/School/Programming_Techniques/Notes",
                     "LTSpice Wiki"        : "http://ltwiki.org/index.php?title=Main_Page",
