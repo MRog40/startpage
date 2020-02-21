@@ -9,7 +9,7 @@ var sites = {
                 "Antennas"  : "http://montoya.sdsmt.edu/ee483/spring2020/ee483_spring2020.htm",
             },
             "Sch2" : {
-                "Gitlab"                  : "https://gitlab.mcs.sdsmt.edu/",
+                "Github"                  : "https://github.com/MRog40?tab=repositories",
                 "Email"                   : "https://mail.google.com/mail/u/0/#inbox",
                 "School Email"            : "https://mail.google.com/mail/u/1/#inbox",
                 "DevDocs"                 : "https://devdocs.io",
