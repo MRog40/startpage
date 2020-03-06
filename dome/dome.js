@@ -13,8 +13,8 @@ var sites = {
                 "Email"                   : "https://mail.google.com/mail/u/0/#inbox",
                 "School Email"            : "https://mail.google.com/mail/u/1/#inbox",
                 "DevDocs"                 : "https://devdocs.io",
-                "AsciiDocs"               : "https://asciidoctor.org/docs/user-manual/",
-                "AsciiMath"               : "http://asciimath.org",
+                "KaTeX"                   : "https://katex.org/docs/supported.html",
+                "Joplin"                  : "https://discourse.joplinapp.org/",
             },
             "Tools" : {
                 "Calendar"                : "https://calendar.google.com/calendar/r",
