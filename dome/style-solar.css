@@ -1,5 +1,22 @@
 :root {
   /* Colors */
+    --base03 : #002b36;
+    --base02 : #073642;
+    --base01 : #586e75;
+    --base00 : #657b83;
+    --base0  : #839496;
+    --base1  : #93a1a1;
+    --base2  : #eee8d5;
+    --base3  : #fdf6e3;
+    --yellow : #b58900;
+    --orange : #cb4b16;
+    --red    : #d30102;
+    --magenta: #d33682;
+    --violet : #6c71c4;
+    --blue   : #268bd2;
+    --cyan   : #2aa198;
+    --green  : #859900;
+
   --black: #000000;
   --darker: #101112; /* rgb(33, 37, 43)  */
   --dark-gray: #181A1F; /* rgb(33, 37, 43)  */
@@ -18,14 +35,15 @@
   --main-font: 12pt;
   --social-icon-size: 30px;
 
-  --hdr: var(--gray);	    /* Header Background Color */
-  --bkg: var(--darker);	        /* Background Color */
-  --frg: var(--dark-gray);	    /* Foreground Color */
-  --hgl: var(--pink);	      	/* Highlight Color */
+  --hdr: var(--base02);	        /* Header Background Color */
+  --bkg: var(--base03);	        /* Background Color */
+  --frg: var(--base02);   	    /* Foreground Color */
+  --hgl: var(--green);	      	/* Highlight Color */
 
-  --htx: var(--off-white);		/* Header Text Color */
-  --txt: var(--off-white);		/* Text Color */
+  --htx: var(--cyan);		/* Header Text Color */
+  --txt: var(--base1);		/* Text Color */
 }
+
 
 @font-face {
 	src: url(font/Montserrat-Regular.otf);
