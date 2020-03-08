@@ -21,9 +21,9 @@ var sites = {
                 "Messenger"               : "https://messages.android.com",
                 "Keep"                    : "https://keep.google.com/u/0/",
                 "Weather"                 : "https://weather.com/weather/today/",
-                "VPN Test"                : "http://ipmagnet.services.cbcdn.com/",
+                "VPN Test"                : "ipmagnet.services.cbcdn.com/",
 
-                "Router"                  : "http://router.asus.com"
+                "Router"                  : "router.asus.com"
             },
             "Social" : {
                 "Youtube"                 : "https://www.youtube.com/",
