@@ -14,17 +14,17 @@
   --orange: #e5c07b; /* rgb(229, 192, 123)  */
   --red: #c24038; /* rgb(194, 64, 56)  */
   /* Other Vars */
-  --title-font: 12pt;
-  --main-font: 12pt;
+  --title-font: 10pt;
+  --main-font: 10pt;
   --social-icon-size: 30px;
 
-  --hdr: var(--gray);	    /* Header Background Color */
+  --hdr: var(--gray);	        /* Header Background Color */
   --bkg: var(--darker);	        /* Background Color */
   --frg: var(--dark-gray);	    /* Foreground Color */
   --hgl: var(--pink);	      	/* Highlight Color */
 
-  --htx: var(--off-white);		/* Header Text Color */
-  --txt: var(--off-white);		/* Text Color */
+  --htx: var(--light-gray);		/* Header Text Color */
+  --txt: var(--light-gray);		/* Text Color */
 }
 
 @font-face {
