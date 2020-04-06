@@ -17,9 +17,9 @@ var sites = {
                 "Joplin"                  : "https://discourse.joplinapp.org/",
             },
             "Tools" : {
-                "Calendar"                : "https://calendar.google.com/calendar/r",
+                "OptionsPC"                : "https://www.optionsprofitcalculator.com/calculator/covered-call.html",
                 "Messenger"               : "https://messages.android.com",
-                "Keep"                    : "https://keep.google.com/u/0/",
+                "Smith Chart"                    : "https://www.will-kelsey.com/smith_chart/#",
                 "Weather"                 : "https://weather.com/weather/today/",
                 "VPN Test"                : "http://ipmagnet.services.cbcdn.com/",
 
@@ -30,7 +30,7 @@ var sites = {
                 "Reddit"                  : "https://www.reddit.com/",
                 "Gamebattles"             : "http://profile.majorleaguegaming.com/MRog40/",
                 "Twitch"                  : "https://twitch.tv/",
-                "/r/modernwarfare"        : "https://www.reddit.com/r/modernwarfare",
+                "/r/WSB"                  : "https://www.reddit.com/r/wallstreetbets",
                 "/r/UnixPorn"             : "https://www.reddit.com/r/unixporn"
             },
             "Other" : {
@@ -43,7 +43,7 @@ var sites = {
                 },
             "Other 2" : {
                     "Spotify Web"         : "https://open.spotify.com/browse/featured",
-                    "Chilled Cow"         : "https://www.youtube.com/watch?v=hHW1oY26kxQ",
+                    "Chilled Cow"         : "https://www.youtube.com/watch?v=5qap5aO4i9A",
                     "Xim"                 : "https://community.xim.tech/index.php",
                     "SnapEDA"             : "https://www.snapeda.com/home/",
                     "UMG"                 : "https://umggaming.com/tournaments",
