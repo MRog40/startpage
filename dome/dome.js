@@ -17,9 +17,9 @@ var sites = {
                 "Joplin"                  : "https://discourse.joplinapp.org/",
             },
             "Tools" : {
-                "Calendar"                : "https://calendar.google.com/calendar/r",
+                "OptionsPC"                : "https://www.optionsprofitcalculator.com/calculator/covered-call.html",
                 "Messenger"               : "https://messages.android.com",
-                "Keep"                    : "https://keep.google.com/u/0/",
+                "Smith Chart"                    : "https://www.will-kelsey.com/smith_chart/#",
                 "Weather"                 : "https://weather.com/weather/today/",
                 "VPN Test"                : "http://ipleak.net",
                 "Router"                  : "router.asus.com"
