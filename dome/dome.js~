@@ -9,33 +9,33 @@ var sites = {
                 "Antennas"  : "http://montoya.sdsmt.edu/ee483/spring2020/ee483_spring2020.htm",
             },
             "Sch2" : {
-                "Github"                  : "https://github.com/MRog40?tab=repositories",
+                "Gitlab"                  : "https://gitlab.mcs.sdsmt.edu/",
                 "Email"                   : "https://mail.google.com/mail/u/0/#inbox",
                 "School Email"            : "https://mail.google.com/mail/u/1/#inbox",
                 "DevDocs"                 : "https://devdocs.io",
-                "KaTeX"                   : "https://katex.org/docs/supported.html",
-                "Joplin"                  : "https://discourse.joplinapp.org/",
+                "AsciiDocs"               : "https://asciidoctor.org/docs/user-manual/",
+                "AsciiMath"               : "http://asciimath.org",
             },
             "Tools" : {
-                "OptionsPC"                : "https://www.optionsprofitcalculator.com/calculator/covered-call.html",
+                "Calendar"                : "https://calendar.google.com/calendar/r",
                 "Messenger"               : "https://messages.android.com",
-                "Smith Chart"                    : "https://www.will-kelsey.com/smith_chart/#",
+                "Keep"                    : "https://keep.google.com/u/0/",
                 "Weather"                 : "https://weather.com/weather/today/",
-                "VPN Test"                : "http://ipmagnet.services.cbcdn.com/",
+                "VPN Test"                : "ipmagnet.services.cbcdn.com/",
 
-                "Router"                  : "http://router.asus.com"
+                "Router"                  : "router.asus.com"
             },
             "Social" : {
                 "Youtube"                 : "https://www.youtube.com/",
                 "Reddit"                  : "https://www.reddit.com/",
                 "Gamebattles"             : "http://profile.majorleaguegaming.com/MRog40/",
                 "Twitch"                  : "https://twitch.tv/",
-                "/r/WSB"                  : "https://www.reddit.com/r/wallstreetbets",
+                "/r/modernwarfare"        : "https://www.reddit.com/r/modernwarfare",
                 "/r/UnixPorn"             : "https://www.reddit.com/r/unixporn"
             },
             "Other" : {
                     "Senior Design Drive" : "https://drive.google.com/drive/u/1/folders/0AAUPGjODjDkxUk9PVA",
-                    "CDR Slides"          : "https://docs.google.com/presentation/d/1CJn0WJyT7w2tJa-K_2CKDlGqUGjZkFxVBNXVcDddyro/edit",
+                    "PDR Slides"          : "https://docs.google.com/presentation/d/1qaPJSerLKaY41vbb6Kd-B0nG8DfEDwNKewXdnTusqYs/edit#slide=id.g6ad2fef6b1_0_51",
                     "Log Book"            : "file:///C:/Users/7258163/Documents/School/Senior_Design_1/LogBook.html",
                     "CSC215 Notes"        : "file:///C:/Users/7258163/Documents/School/Programming_Techniques/Notes",
                     "LTSpice Wiki"        : "http://ltwiki.org/index.php?title=Main_Page",
@@ -43,7 +43,7 @@ var sites = {
                 },
             "Other 2" : {
                     "Spotify Web"         : "https://open.spotify.com/browse/featured",
-                    "Chilled Cow"         : "https://www.youtube.com/watch?v=5qap5aO4i9A",
+                    "Chilled Cow"         : "https://www.youtube.com/watch?v=hHW1oY26kxQ",
                     "Xim"                 : "https://community.xim.tech/index.php",
                     "SnapEDA"             : "https://www.snapeda.com/home/",
                     "UMG"                 : "https://umggaming.com/tournaments",
