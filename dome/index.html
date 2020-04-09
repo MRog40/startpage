@@ -61,7 +61,7 @@
     <a href="steam:">Open Steam</a> --!>
    </div>
    <form method="GET" id="action">
-    <input type="text" oninput="matchLinks(this.value)" autofocus autocomplete="off">
+    <input id="dome-input" type="text" oninput="matchLinks(this.value)" autofocus autocomplete="off">
    </form>
    <div id="links">
     <!-- dome.js: matchLinks() fills this element -->
@@ -70,4 +70,11 @@
  </div>
 
 </body>
+<script>
+//window.open('index.html', '_blank');
+//window.close();
+document.onload = function() {
+    document.getElementById("dome-input").focus();
+}
+</script>
 </html>
