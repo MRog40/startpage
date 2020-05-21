@@ -1,67 +1,57 @@
 // ---------- CONFIGURATION ----------
 // DOME
 var sites = {
-            "Sch" : {
-                "D2L Embedded" : "https://d2l.sdbor.edu/d2l/le/content/1333664/Home",
-                "D2L Stats" : "https://d2l.sdbor.edu/d2l/le/content/1333634/Home",
-                "D2L Radar" : "https://d2l.sdbor.edu/d2l/le/content/1333485/Home",
-                "D2L SrDesign" : "https://d2l.sdbor.edu/d2l/home/1330854",
-                "Antennas"  : "http://montoya.sdsmt.edu/ee483/spring2020/ee483_spring2020.htm",
-            },
-            "Sch2" : {
-                "Github"                  : "https://github.com/MRog40?tab=repositories",
-                "Email"                   : "https://mail.google.com/mail/u/0/#inbox",
-                "School Email"            : "https://mail.google.com/mail/u/1/#inbox",
-                "DevDocs"                 : "https://devdocs.io",
-                "KaTeX"                   : "https://katex.org/docs/supported.html",
-                "Joplin"                  : "https://discourse.joplinapp.org/",
-            },
-            "Tools" : {
-                "OptionsPC"                : "https://www.optionsprofitcalculator.com/calculator/covered-call.html",
-                "Messenger"               : "https://messages.android.com",
-                "Smith Chart"                    : "https://www.will-kelsey.com/smith_chart/#",
-                "Weather"                 : "https://weather.com/weather/today/",
-                "VPN Test"                : "http://ipmagnet.services.cbcdn.com/",
+"Access" : {
+    "Github"              : "https://github.com/MRog40?tab=repositories",
+    "Email"               : "https://mail.google.com/mail/u/0/#inbox",
+    "School Email"        : "https://mail.google.com/mail/u/1/#inbox",
+},
+"Docs" : {
+    "Hugo"                : "https://gohugo.io/documentation/",
+    "KaTeX"               : "https://katex.org/docs/supported.html",
+    "LTSpice Wiki"        : "http://ltwiki.org/index.php?title=Main_Page",
+    "AHK Docs"            : "https://www.autohotkey.com/docs/AutoHotkey.htm",
+    "DevDocs"             : "https://devdocs.io",
+},
+"Tools" : {
+    "OptionsPC"           : "https://www.optionsprofitcalculator.com/calculator/covered-call.html",
+    "Smith Chart"         : "https://www.will-kelsey.com/smith_chart/#",
+    "SnapEDA"             : "https://www.snapeda.com/home/",
+    "Weather"             : "https://weather.com/weather/today/",
+    "VPN Test"            : "http://ipmagnet.services.cbcdn.com/",
+    "Router"              : "http://router.asus.com",
+},
+"Social" : {
+    "Youtube"             : "https://www.youtube.com/",
+    "Twitch"              : "https://twitch.tv/",
+    "/r/WSB"              : "https://www.reddit.com/r/wallstreetbets",
+    "/r/HWS"              : "https://www.reddit.com/r/hardwareswap",
+    "/r/UnixPorn"         : "https://www.reddit.com/r/unixporn",
+},
+"Info" : {
+    "hackr.io"            : "https://hackr.io/",
+    "Antennas"            : "http://montoya.sdsmt.edu/ee483/spring2020/ee483_spring2020.htm",
+},
+"Other" : {
+    "Lofi"                : "https://www.youtube.com/results?search_query=lofi",
+    "Xim"                 : "https://community.xim.tech/index.php",
+    "UMG"                 : "https://umggaming.com/tournaments",
+    "CMG"                 : "https://www.checkmategaming.com/bank"
+    "GB"                  : "http://profile.majorleaguegaming.com/MRog40/",
+}
+};
 
-                "Router"                  : "http://router.asus.com"
-            },
-            "Social" : {
-                "Youtube"                 : "https://www.youtube.com/",
-                "Reddit"                  : "https://www.reddit.com/",
-                "Gamebattles"             : "http://profile.majorleaguegaming.com/MRog40/",
-                "Twitch"                  : "https://twitch.tv/",
-                "/r/WSB"                  : "https://www.reddit.com/r/wallstreetbets",
-                "/r/UnixPorn"             : "https://www.reddit.com/r/unixporn"
-            },
-            "Other" : {
-                    "Senior Design Drive" : "https://drive.google.com/drive/u/1/folders/0AAUPGjODjDkxUk9PVA",
-                    "CDR Slides"          : "https://docs.google.com/presentation/d/1CJn0WJyT7w2tJa-K_2CKDlGqUGjZkFxVBNXVcDddyro/edit",
-                    "Log Book"            : "file:///C:/Users/7258163/Documents/School/Senior_Design_1/LogBook.html",
-                    "CSC215 Notes"        : "file:///C:/Users/7258163/Documents/School/Programming_Techniques/Notes",
-                    "LTSpice Wiki"        : "http://ltwiki.org/index.php?title=Main_Page",
-                    "AHK Docs"            : "https://www.autohotkey.com/docs/AutoHotkey.htm"
-                },
-            "Other 2" : {
-                    "Spotify Web"         : "https://open.spotify.com/browse/featured",
-                    "Chilled Cow"         : "https://www.youtube.com/watch?v=5qap5aO4i9A",
-                    "Xim"                 : "https://community.xim.tech/index.php",
-                    "SnapEDA"             : "https://www.snapeda.com/home/",
-                    "UMG"                 : "https://umggaming.com/tournaments",
-                    "CMG"                 : "https://www.checkmategaming.com/bank"
-                }
-            };
-
-var search = { // Query variable name is q, hardcoded, looks like a standard already anyways
-                "default": "https://duckduckgo.com/?q=",
-                "d" : "https://duckduckgo.com/?q=",
-                "g" : "https://google.com/search?q=",
-                "r" : "https://www.reddit.com/search?q=",
-                "a" : "https://www.amazon.com/s?k=",
-                "y" : "https://www.youtube.com/results?search_query=",
-                "s" : "https://open.spotify.com/search/",
-                "k" : "https://www.digikey.com/products/en?keywords=",
-                "t" : "https://www.twitch.tv/search?term="
-            };
+var search = {
+    "default"             : "https://duckduckgo.com/?q=",
+    "d"                   : "https://duckduckgo.com/?q=",
+    "g"                   : "https://google.com/search?q=",
+    "r"                   : "https://www.reddit.com/search?q=",
+    "a"                   : "https://www.amazon.com/s?k=",
+    "y"                   : "https://www.youtube.com/results?search_query=",
+    "s"                   : "https://open.spotify.com/search/",
+    "k"                   : "https://www.digikey.com/products/en?keywords=",
+    "t"                   : "https://www.twitch.tv/search?term="
+};
 
 // ---------- BUILD PAGE ----------
 var pivotmatch = 0;
